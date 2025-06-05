@@ -1,10 +1,19 @@
-# Tooltip Critique Session - June 2025
+# Tooltip Critique Session – June 2025 ✨
 
-Document the feedback gathered from the design critique session on tooltips.
+Record the discussion from our June critique on the new tooltip patterns.
 
-- **Participants:** TBD
+- **Date:** 2025-06-12
+- **Participants:** @designerA, @designerB
 - **Assets:** [Figma link](https://www.figma.com/)
 
-## Notes
+## Agenda 📝
+- Review color contrast updates
+- Decide on animation speed
 
-Write notes from the critique here.
+## Feedback 🙌
+- Contrast with dark background passed WCAG AA
+- 150ms animation felt crisp and unobtrusive
+
+## Action Items 🔧
+1. Update docs with final contrast ratios
+2. Provide a motion spec sheet
