@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Armada - Space Shmup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="frame">
+    <canvas id="gameCanvas" width="224" height="320"></canvas>
+    <div id="ui" class="hud">
+      <div class="logo">PIXEL ARMADA</div>
+      <div class="stats">
+        <span id="score">Score: 000000</span>
+        <span id="weapon">Weapon: Pulse Blaster</span>
+        <span id="health">Hull: 100%</span>
+      </div>
+    </div>
+    <div id="introScreen" class="overlay visible">
+      <div class="card">
+        <h1>PIXEL ARMADA</h1>
+        <p>Earth needs a hero. Pilot the Nova Lance through waves of synth-powered invaders.</p>
+        <p class="instructions">Move with <strong>Arrow Keys</strong> or <strong>WASD</strong>. Fire with <strong>Space</strong> or <strong>Z</strong>.</p>
+        <p>Collect energy cores to upgrade your weapons and chase a new high score.</p>
+        <button id="startButton" class="button">Press Start</button>
+      </div>
+    </div>
+    <div id="gameOver" class="overlay">
+      <div class="card">
+        <h2>MISSION REPORT</h2>
+        <p class="final-score">Score: 0</p>
+        <p class="best-score">Best: 0</p>
+        <p>Press the button below to launch again.</p>
+        <button id="restartButton" class="button">Restart Run</button>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
